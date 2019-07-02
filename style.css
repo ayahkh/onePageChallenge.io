@@ -6,6 +6,7 @@
     --bright-pink: #EC368D;
     --pale-pink: #FFA5A5;
     --beige: #FFD6C0;
+    --dark-grey: #333;
 }
 
 * {
@@ -17,6 +18,10 @@
 
 body {
     height: 100vh;
+    
+}
+html{
+    scroll-behavior: smooth;
 }
 
 .page {
@@ -48,16 +53,20 @@ body {
     list-style-type: none;
 }
 
-.custom-padding{
-    padding-top: 25px;
-}
+/* .custom-padding{
+    top: 5%;
+} */
 
 nav {
-    position: relative;
-    width: calc(100% - 60px);
+    opacity: 0.5;
+    /* top: 2%; */
+    background-color: rgb(255,255,255);
+    position: fixed;
+    width: calc(100%);
+    display:block;
+    transition: top 0.3s;
     margin: 0 auto;
     padding: 10px 0;
-    background: #333;
     z-index: 1;
     text-align: right;
     padding-right: 2%;
@@ -67,7 +76,7 @@ nav {
     width: 15%;
     float: left;
     text-transform: uppercase;
-    color: #fff;
+    color:rgb(0,0,0);
     font-size: 18px;
     margin: 0;
     flex-direction: column;
@@ -82,7 +91,7 @@ nav {
 }
 
 .menu-area a {
-    color: #fff;
+    color: rgb(0,0,0);
     font-weight: 300;
     letter-spacing: 1px;
     text-transform: uppercase;
