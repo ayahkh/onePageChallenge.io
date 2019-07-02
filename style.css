@@ -1,29 +1,58 @@
+
+:root {
+    --main-bg-color: coral;
+    --light-blue: #51E5FF;
+    --dark-blue: #440381;
+    --bright-pink: #EC368D;
+    --pale-pink: #FFA5A5;
+    --beige: #FFD6C0;
+}
+
 * {
     margin:  0;
     padding: 0;
     outline: 0;
     box-sizing: border-box;
-  }
-  body {
-    background-image: url(https://i.postimg.cc/DftcpyvG/1.jpg);
-    -webkit-background-size:cover;
-    background-size:cover;
-    background-position: center center;
+}
+
+body {
     height: 100vh;
-  }
-  .menu-area li a {
+}
+
+.page {
+    height: 100%;
+}
+
+.heading-container {
+    background-color: var(--light-blue);
+}
+
+.about-container {
+    background-color: var(--dark-blue);
+}
+
+.team-container {
+    background-color: var(--bright-pink);
+}
+
+.contact-container {
+    background-color: var(--pale-pink);
+}
+
+
+.menu-area li a {
     text-decoration: none;
-  }
-  
-  .menu-area li {
+}
+
+.menu-area li {
     list-style-type: none;
-  }
-  
-  .custom-padding{
+}
+
+.custom-padding{
     padding-top: 25px;
-  }
-  
-  nav {
+}
+
+nav {
     position: relative;
     width: calc(100% - 60px);
     margin: 0 auto;
@@ -32,9 +61,9 @@
     z-index: 1;
     text-align: right;
     padding-right: 2%;
-  }
-  
-  .logo {
+}
+
+.logo {
     width: 15%;
     float: left;
     text-transform: uppercase;
@@ -46,17 +75,13 @@
     padding-left: 2%;
     align-self:center;
     padding-top: 0.3%;
-    
-    
-    
-  }
-  
-  .menu-area li {
-    display: inline-block;
+}
 
-  }
-  
-  .menu-area a {
+.menu-area li {
+    display: inline-block;
+}
+
+.menu-area a {
     color: #fff;
     font-weight: 300;
     letter-spacing: 1px;
@@ -67,17 +92,17 @@
     line-height: 30px;
     position: relative;
     z-index: 1;
-  }
-  .menu-area a:hover {
+}
+.menu-area a:hover {
     background: tomato;
     color: #fff;
-  }
-  
-  .menu-area a:hover:after {
+}
+
+.menu-area a:hover:after {
     transform: translateY(-50%) rotate(-35deg);
-  }
-  
-  nav:before {
+}
+
+nav:before {
     position: absolute;
     content: '';
     border-top: 10px solid #333;
@@ -86,9 +111,9 @@
     border-bottom: 10px solid transparent;
     top: 100%;
     left: 0;
-  }
-  
-  nav:after {
+}
+
+nav:after {
     position: absolute;
     content: '';
     border-top: 10px solid #333;
@@ -97,24 +122,22 @@
     border-bottom: 10px solid transparent;
     top: 100%;
     right: 0;
-  }
+}
   
   
   /* ignore the code below */
   
-  
-  .link-area
-  {
+.link-area {
     position:fixed;
     bottom:20px;
     left:20px;  
     padding:15px;
     border-radius:40px;
     background:tomato;
-  }
-  .link-area a
-  {
+}
+
+.link-area a{
     text-decoration:none;
     color:#fff;
     font-size:25px;
-  }
+}
