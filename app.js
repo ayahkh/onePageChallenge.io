@@ -48,5 +48,5 @@ window.addEventListener("load", function () {
 let noJsElements = document.getElementsByClassName("javascript-disabled");
 
 for (let i = 0; i < noJsElements.length; i++) {
-  noJsElements[i].style.display = 'none';
+  noJsElements[i].style.display = "none";
 }
