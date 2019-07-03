@@ -18,7 +18,8 @@
 }
 
 body {
-	font-family: Verdana, sans-serif;
+    width:100%;
+	font-family: sans-serif;
 }
 
 html{
@@ -31,20 +32,25 @@ html{
     box-sizing: inherit;
   }
 .page {
+    /* background: url(https://archive-media-1.nyafuu.org/wg/image/1470/37/1470372074213.jpg) ; */
+
     height: 100%;
 }
 
 .heading-container {
-    background-color: var(--light-blue);
+    /* background: url(https://archive-media-1.nyafuu.org/wg/image/1470/37/1470372074213.jpg) ; */
+
+    /* background-color: var(--light-blue); */
 }
 
 .about-container {
-    background-color: var(--dark-blue);
+    /* background: url(https://archive-media-1.nyafuu.org/wg/image/1470/37/1470372074213.jpg) ; */
+
+    /* background-color: var(--dark-blue); */
 }
 
 .team-container {
 
-    /* background-color: var(--bright-pink); */
     background: url(https://archive-media-1.nyafuu.org/wg/image/1470/37/1470372074213.jpg) ;
     color: rgb(226, 212, 19);
     text-align: center;
@@ -73,7 +79,7 @@ nav {
     /* top: 2%; */
     background-color: rgb(255,255,255);
     position: fixed;
-    width: calc(100%);
+    width: 100%;
     display:block;
     transition: top 0.3s;
     margin: 0 auto;
@@ -82,6 +88,7 @@ nav {
     text-align: right;
     padding-right: 2%;
 }
+
 
 .logo {
     width: 15%;
@@ -287,14 +294,6 @@ text-align: center;
 
 /* --------------- About settings---------*/
 
-.image {
-  width: 100%;
-  height: 250px;
-  width: 300px;
-  position:relative;
-  left: 900px;
-  top: 350px;
-}
 
 .about-container {
   height: 100vh;
@@ -316,10 +315,7 @@ text-align: center;
     flex-direction: column;
     align-items: center;
     justify-content: space-around;
-    min-width: 600px;
     min-height: 500px;
-
-    /* background-color: var(--light-blue); */
 }
 
 .contact-form-title {
@@ -330,6 +326,8 @@ text-align: center;
 }
 
 /*---------------------------------------------*/
+
+
 input {
 	outline: none;
 	border: none;
@@ -470,6 +468,9 @@ textarea.input {
     font-size: 1.5em;
     font-weight: 600;
     color: var(--text-dark-grey)
+}
+.labe{
+    visibility: hidden;
 }
 
 /* teammmmm section */
