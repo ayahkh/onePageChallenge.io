@@ -3,19 +3,17 @@
 <html lang="en">
 
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="./style.css">
-<title>SAD Team</title>
-
-
-
+    <link rel=stylesheet type=text/css href=style.css>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAD Team</title>
 </head>
+
 <body>
     <div class="navigation-container">
         <div class="custom-padding">
             <nav>
                 <div class="logo">SAD's Project</div>
-            
+
                 <ul class="menu-area">
                     <li><a href="#">Home</a></li>
                     <li><a href="#about">About</a></li>
@@ -72,8 +70,36 @@
     <div id="team" class="team-container page">
 
     </div>
-    <div id="contact" class="contact-container page">
+    <div class="contact-container page">
+        <form class='contact-form'>
+            <span class="contact-form-title">
+                GET IN TOUCH
+            </span>
 
+            <div class="input-container validate-input" data-validate="Please enter your name">
+                <input class="input" type="text" name="name" placeholder="Full Name">
+                <span class="focus-input"></span>
+            </div>
+
+            <div class="input-container validate-input" data-validate="Please enter your email: name@mail.com">
+                <input class="input" type="text" name="email" placeholder="E-mail">
+                <span class="focus-input"></span>
+            </div>
+
+            <div class="input-container validate-input" data-validate="Please enter your message">
+                <textarea class="input" type="text" name="message" placeholder="Your message"></textarea>
+                <span class="focus-input"></span>
+            </div>
+
+            <div class="contact-form-btn-container">
+                <button class="contact-form-btn">
+                    <span>
+                        <img class='svg' src="assets/paper-plane-solid.svg" onerror="this.onerror=null">
+                        Send
+                    </span>
+                </button>
+            </div>
+        </form>
     </div>
 </body>
 <script src="./app.js"></script>
