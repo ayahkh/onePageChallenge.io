@@ -41,6 +41,12 @@ function processForm(e) {
   xhr.send();
 }
 
-window.addEventListener("load", function() {
+window.addEventListener("load", function () {
   document.getElementById('contact-form').addEventListener("submit", processForm)
 });
+
+let noJsElements = document.getElementsByClassName("javascript-disabled");
+
+for (let i = 0; i < noJsElements.length; i++) {
+  noJsElements[i].style.display = "none";
+}
