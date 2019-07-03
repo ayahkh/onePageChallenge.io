@@ -29,7 +29,6 @@ function showSlides(n) {
   dots[slideIndex - 1].className += " active";
 }
 
-
 const formURL = "https://script.google.com/macros/s/AKfycbxa6XGZlQan77yWNl8KjL8Fygeg55BQprtJMZQG5hQVOfw7vywg/exec?"
 
 function processForm(e) {
