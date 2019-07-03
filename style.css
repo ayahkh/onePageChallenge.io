@@ -263,7 +263,7 @@ nav:after {
     align-items: center;
 }
 
-.contact-form {
+#contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
