@@ -120,7 +120,6 @@ img {vertical-align: middle;}
 }
 
 body {
-    
 	font-family: sans-serif;
 }
 html{
@@ -148,7 +147,7 @@ html{
     
     /* background-color: var(--bright-pink); */
     background: url(https://archive-media-1.nyafuu.org/wg/image/1470/37/1470372074213.jpg) ; 
-    color: rgb(19, 226, 88);
+    color: rgb(226, 212, 19);
     text-align: center;         
 
 }
@@ -272,10 +271,9 @@ nav:after {
     justify-content: center;
     align-items: center;
     padding-top:100px;
-
 }
 
-.contact-form {
+#contact-form {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -431,11 +429,6 @@ textarea.input {
 }
 
 
-
-/* iframe {
-	border: none !important;
-} */
-
 /* teammmmm section */
   .column {
     float: left;
@@ -466,11 +459,10 @@ textarea.input {
   }
   
   .title {
-    padding-top: 25px;
-    color: rgb(29, 179, 29);
+    padding-top: 100px;
+    color: rgb(24, 18, 182);
     font-size:30px;
   }
  .title body{
     font-size:25px;
-
  }
