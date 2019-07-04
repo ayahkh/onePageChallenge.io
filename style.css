@@ -172,7 +172,11 @@ nav:after {
 /* --------------- slideshow settings---------*/
 
 
-.slide {vertical-align: middle;}
+.slide {vertical-align: middle;
+  width:100%;
+  max-width: 85rem;
+  max-height: 40rem;
+}
 
 .slideshow-container {
   width:100%;
