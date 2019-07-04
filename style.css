@@ -52,7 +52,7 @@ html{
 .team-container {
 
     background: url(https://archive-media-1.nyafuu.org/wg/image/1470/37/1470372074213.jpg) ;
-    color: rgb(226, 212, 19);
+    color: rgb(255,255,255);
     text-align: center;
 
 }
@@ -487,6 +487,12 @@ textarea.input {
 }
 
 /* teammmmm section */
+  .img{
+    width:100%; 
+    height:500px;
+    border-radius: 70%;
+    object-fit: cover;
+  }
   .column {
     float: left;
     width: 33.3%;
@@ -517,11 +523,11 @@ textarea.input {
 
   .title {
     padding-top: 100px;
-    color: rgb(24, 18, 182);
-    font-size:30px;
+    color: rgb(0,0,0);
+    font-size:25px;
   }
  .title body{
-    font-size:25px;
+    font-size:20px;
  }
 
  @media screen and (max-width: 700px)
