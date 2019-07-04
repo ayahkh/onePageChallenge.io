@@ -174,9 +174,18 @@ nav:after {
 
 .slide {vertical-align: middle;}
 
+.slideshow-container {
+  width:100%;
+  position: relative;
+  margin: auto;
+}
+  }
+
+
 /* Slideshow container */
 .slideshow-container {
   max-width: 1000px;
+  width:100%;
   position: relative;
   margin: auto;
 }
@@ -209,7 +218,7 @@ nav:after {
 }
 
 /* Caption text */
-.text {
+/*.text {
   color: #f2f2f2;
   font-size: 30px;
   padding: 8px 12px;
@@ -217,11 +226,11 @@ nav:after {
   bottom: 8px;
   width: 100%;
   text-align: center;
-}
+}*/
 
 .texta{
   color: var(--white);
-  font-size: 60px;
+  font-size: 4rem;
   padding: 20px 12px;
   position: absolute;
   bottom: 8px;
@@ -510,3 +519,42 @@ textarea.input {
  .title body{
     font-size:25px;
  }
+
+ @media screen and (max-width: 700px)
+  {
+.slide{
+
+   max-width: 100%;
+   max-height: 13rem;
+}
+.texta{
+  color: var(--white);
+  font-size: 2rem;
+/*padding: 10px 10px 10px 10px;*/
+  position: absolute;
+  bottom: -200px;
+ width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0);
+
+}
+
+.textb{
+  color: var(--white);
+  font-size: 60px;
+  padding: 20px 12px;
+  position: absolute;
+  bottom: 310px;
+  width: 100%;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.textc{
+color: var(--black);
+font-size: 40px;
+padding: 20px 12px;
+position:absolute;
+bottom:-200px;
+text-align: center;
+}
+}
